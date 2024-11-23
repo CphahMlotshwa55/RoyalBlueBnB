@@ -1,0 +1,49 @@
+.center {
+    text-align: center;
+}
+/* Reset some default styling */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Basic styling for the header */
+header {
+    background-color: #5483B3;
+    padding: 10px 20px;
+}
+
+/* Styling for the navigation bar */
+.navbar {
+    background-color: #5483B3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 100px;
+}
+/* Styling for navigation links */
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    /*spacing in between*/
+    margin: 0 15px;
+}
+
+.nav-links a {
+    /*font color*/
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.nav-links a:hover {
+    background-color: #131212;
+    text-decoration: underline;
+}
